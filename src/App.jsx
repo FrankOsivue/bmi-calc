@@ -6,6 +6,10 @@ const App = () => {
       <div className='container'>
         <h1>BMI Calculator</h1>
 
+        <p className='subtitle'>
+          Find out your body mass index by filling the fields below
+        </p>
+
         {/* height*/}
         <label htmlFor='height'> Height (cm) </label>
         <input
