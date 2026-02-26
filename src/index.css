@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: darkcyan;
+  background-color: darkgrey;
   color: black;
   display: flex;
   justify-content: center;
@@ -58,4 +58,14 @@ button {
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(73, 17, 126);
+}
+
+.result {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
